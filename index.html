@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="-pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>BuscarCep</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h2>Buscar Cep</h2>
+
+        <label for="cep">Cep</label>
+        <input type="text" id="cep"/>
+
+        <label for="logradouro">Endereço</label>
+        <input type="text" id="endereco" disabled />
+
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" disabled />
+
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" disabled/>
+
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" disabled/>
+
+        <div class="btnDiv">
+            <button type="submit" onclick="clicarBtn()" class="btn">Submit</button>
+            <button type="submit" onclick="clearDataScream()" class="clearBtn">Clear</button>
+        </div>
+        
+
+
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
